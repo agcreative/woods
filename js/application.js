@@ -25,24 +25,7 @@ $(document).ready(function() {
 		var winRatio = $(window).outerWidth()/$(window).height();
 		var imgRatio = (1200/800);
 		
-		//adjust Width + Height
-		if(winRatio > imgRatio){
-			$('#wrap').find('.scrollblock').css('height', $(window).height() + 'px');
-			bgImage.css('width', $(window).outerWidth() + 'px');
-            bgImage.css('height', $(window).outerWidth()/imgRatio + 'px');
-            bg.css('width', $(window).outerWidth() + 'px');
-            bg.css('height', $(window).outerWidth()/imgRatio + 'px');
-            bg.css('top', (($(window).height() - bgImage.height())/2) + 'px');
-            bg.css('left', '0px');
-		}else{
-			$('#wrap').find('.scrollblock').css('height', $(window).height() + 'px');
-			bgImage.css('height', $(window).height() + 'px');
-            bgImage.css('width', $(window).height()*imgRatio + 'px');
-            bg.css('height', $(window).height() + 'px');
-            bg.css('width', $(window).height()*imgRatio + 'px');
-            bg.css('left', (($(window).outerWidth() - bgImage.outerWidth())/2) + 'px');
-            bg.css('top', '0px');
-		}
+		
 	}
 	
 	// SLIDE PICKER
@@ -84,6 +67,14 @@ $(document).ready(function() {
 		$('#console')
 			.css('display','block')
 			.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
+		
+		$('#nav span').removeClass('selected');
+		$('#nav li').each(function( index ){
+			if( i == index){
+				$(this).children().addClass('selected');
+			}
+		});
+	
 	});
 	
 	
@@ -130,10 +121,12 @@ $(document).ready(function() {
 	$('#nav span').click( function(){				
 		$('html, body').stop().animate({
 			scrollTop: $('#'+this.className).offset().top
-		},2000);
-		
-		return false;
+		},2000);		
 	});
+	
+	
+	
+	
 
 });
 
