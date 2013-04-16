@@ -92,17 +92,22 @@ input, select {
 /* ######################################
 	general
 ####################################### */
+body, html {
+	height: 100%;
+}
 
 body {
-	background: #000;
+	background: url(../images/bg-map.jpg) center top no-repeat fixed #000;
 	color: #fff;
 	text-align: center;
 }
-
+#nav {
+	position: relative;
+}
 #wrap {
-	width: 1600px;
-	border: solid red 1px;
+	width: 1500px;
 	margin: 0 auto;
+	height: 100%;
 }
 
 /* ######################################
@@ -130,7 +135,10 @@ body {
 #nav {
 	position: fixed;
 	top: 0;
+	left: 50%;
+	margin-left: -750px;
 	z-index: 999999;
+	width: 1500px;
 }
 #nav li {
 	list-style: none;
@@ -139,11 +147,35 @@ body {
 #nav span {
 	display: block;
 	padding: 6px;
-	border: solid red 1px;
+	cursor: pointer;
+	padding: 20px 0;
+	height: 96px;
+	background: url(../images/bg-nav-a.png) no-repeat;
+	position: relative;
+	color: #00ff00;
+	width: 111px;
 }
-
-#nav span.selected {
-	background: blue;
+#nav em {
+	position: absolute;
+	top: 56px;
+	left: 0;
+	width: 111px;
+	text-align: center;
+	font-style: normal;
+	font-size: 13px;
+	color: #fff;
+	display: none;
+}
+#nav span.selected  {
+	background: url(../images/bg-nav-selected.png) no-repeat;
+	color: #fff;
+	font-size: 24px !important;
+}
+#nav span.selected em, #nav span:hover em {
+	display: block;
+}
+#nav span:hover {
+	background: url(../images/bg-nav-hover.png) no-repeat;
 }
 
 /* ######################################
@@ -159,39 +191,57 @@ body {
 	z-index: 999;
 }
 
-.scrollblock {
+.scrollblock {	
 	position: relative;
 	margin: 0;
-	width: 1600px;
-	height: 900px;
+	width: 1222px;
+	height: 918px;
 	overflow: hidden;
-}
-
-#easing span {
-	display: inline-block;
 	border: solid red 1px;
-	position: relative;
-	top: 0;
+	padding: 0 0 0 278px;
 }
 
-#intro {
-	background: green;
+#body-wrapper{
+	width: 1500px;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
 }
-#transitions {
-	background: red;
+
+#bookcover {
+    left: 50%;
+    margin-left: -750px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
-#pin {
-	background: blue;
+
+
+
+/* ######################################
+	background
+####################################### */
+
+#woodslogo {
+	position: absolute;
+	left: 170px;
+	z-index: 20;
 }
-#paralax {
-	background: purple;
+#nav {
+	overflow: hidden;
+	height: 280px;
 }
-#paralax {
-	background: pink;
+#nav ul {
+	background: url(../images/bg-nav.png) repeat-x;
+    height: 136px;
+    left: 330px;
+    padding: 0 0 0 100px;
+    position: absolute;
+    top: 44px;
+    width: 100% !important;
+    z-index: 10;
 }
-#ease {
-	background: brown;
-}
+
 
 /* ######################################
 	background
@@ -219,4 +269,27 @@ body {
 	display: block;
 	width: 20px;
 	height: 20px;
+}
+
+
+/* ######################################
+	1
+####################################### */
+#text {
+    left: 300px;
+    position: absolute;
+    text-align: left;
+    top: 260px;
+    width: 1112px;
+}
+
+#text p {
+	margin-bottom: 10px;
+	color: #000;
+}
+
+h3#fade-in {
+	position: absolute;
+	top: 200px;
+	left: 500px;
 }
