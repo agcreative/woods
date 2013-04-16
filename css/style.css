@@ -97,7 +97,7 @@ body, html {
 }
 
 body {
-	background: url(../images/bg-map.jpg) center top no-repeat fixed #000;
+	background: url(../images/bg-map.jpg) center 0 no-repeat fixed #000;
 	color: #fff;
 	text-align: center;
 }
@@ -108,6 +108,14 @@ body {
 	width: 1500px;
 	margin: 0 auto;
 	height: 100%;
+}
+
+.rotate {
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+	/* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+	-ms-transform:rotate(3deg);
 }
 
 /* ######################################
@@ -133,12 +141,12 @@ body {
 ####################################### */
 
 #nav {
-	position: fixed;
-	top: 0;
-	left: 50%;
-	margin-left: -750px;
-	z-index: 999999;
-	width: 1500px;
+    left: 50%;
+    margin-left: -830px;
+    position: fixed;
+    top: 0;
+    width: 1580px;
+    z-index: 999999;
 }
 #nav li {
 	list-style: none;
@@ -197,7 +205,6 @@ body {
 	width: 1222px;
 	height: 918px;
 	overflow: hidden;
-	border: solid red 1px;
 	padding: 0 0 0 278px;
 }
 
@@ -210,13 +217,50 @@ body {
 
 #bookcover {
     left: 50%;
-    margin-left: -750px;
+    margin-left: -819px;
     position: fixed;
     top: 0;
     z-index: 99;
 }
 
+.scrollblock h1 {
+    background: url("../images/chapter1/chapter-lines.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: block;
+    font-family: Georgia;
+    font-size: 19px;
+    font-weight: normal;
+    height: 58px;
+    left: 260px;
+    letter-spacing: 11px;
+    line-height: 58px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 147px;
+    width: 1039px;
+}
 
+.scrollblock h2 {
+    color: #000000;
+    display: block;
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    left: 260px;
+    position: absolute;
+    text-align: center;
+    top: 210px;
+    width: 1039px;
+}
+
+.scrollblock p {
+	color: #000000;
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
 
 /* ######################################
 	background
@@ -273,23 +317,192 @@ body {
 
 
 /* ######################################
-	1
+	chapter 1
 ####################################### */
-#text {
-    left: 300px;
+
+#one .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#one .frame {
     position: absolute;
+    right: 650px;
+    top: 521px;
+}
+
+#one .compass {
+    position: absolute;
+    right: 126px;
+    top: 561px;
+}
+
+#one .textblock {  
+    position: absolute;
+    right: 726px;
+    top: 261px;
+    width: 510px;
+}
+
+#one .propeller {
+    position: absolute;
+    right: 219px;
+    text-align: left;
+    top: 639px;
+}
+
+
+/* ######################################
+	chapter 6
+####################################### */
+
+#six .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#six .frame1 {
+    position: absolute;
+    right: 760px;
+    top: 451px;
+    z-index: 10;
+}
+
+#six .frame2 {
+    position: absolute;
+    right: 970px;
+    top: 291px;
+    z-index: 10;
+}
+
+#six .gasmask {
+    position: absolute;
+    right: 126px;
+    bottom: 0;
+    z-index: 10;
+}
+
+#six .textblock1 {
+    position: absolute;
+    right: 766px;
+    text-align: right;
+    top: 310px;
+    width: 280px;
+}
+
+#six .textblock2 {
+    position: absolute;
+    right: 216px;
+    top: 331px;
+    width: 510px;
+}
+
+/* ######################################
+	chapter 8
+####################################### */
+
+#eight .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#eight .frame1 {
+    position: absolute;
+    right: 550px;
+    top: 386px;
+    z-index: 10;
+}
+
+#eight .book {
+    position: absolute;
+    right: 1020px;
+    top: 626px;
+    z-index: 10;
+}
+
+#eight blockquote {
+    background: url("../images/chapter8/bg-quote.png") repeat-x scroll 0 0 transparent;
+    color: #000000;
+    display: block;
+    font-family: Georgia;
+    font-size: 24px;
+    height: 130px;
+    left: 260px;
+    padding: 10px 170px;
+    position: absolute;
+    text-align: center;
+    top: 676px;
+    width: 635px;
+    z-index: 10;
+    letter-spacing: 1px;
+}
+
+#eight blockquote em {
+	font-size: 16px;
+}
+
+#eight .textblock1 {
+    position: absolute;
+    right: 736px;
+    text-align: left;
+    top: 303px;
+    width: 512px;
+}
+
+#eight .textblock2 {
+    position: absolute;
+    right: 190px;
+    text-align: left;
+    top: 330px;
+    width: 522px;
+}
+
+#eight .textblock3 {
+    position: absolute;
+    right: 198px;
+    text-align: left;
+    top: 500px;
+    width: 522px;
+}
+
+/* ######################################
+	chapter 9
+####################################### */
+
+#nine .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#nine .frame1 {
+    position: absolute;
+    right: 520px;
+    top: 440px;
+    z-index: 10;
+}
+
+#nine .frame2 {
+    position: absolute;
+    right: 808px;
+    top: 521px;
+    z-index: 10;
+}
+
+#nine .realguy {
+    position: absolute;
+    right: 155px;
+    top: 306px;
+    z-index: 10;
+}
+
+#nine .textblock1 {
+    position: absolute;
+    right: 686px;
     text-align: left;
     top: 260px;
-    width: 1112px;
-}
-
-#text p {
-	margin-bottom: 10px;
-	color: #000;
-}
-
-h3#fade-in {
-	position: absolute;
-	top: 200px;
-	left: 500px;
+    width: 528px;
 }

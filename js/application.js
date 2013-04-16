@@ -93,9 +93,25 @@ $(document).ready(function() {
 				$(this).children().addClass('selected');
 			}
 		});
+		
+		
+		
+		
 	
 	});
 	
+	//chapter 1
+	scrollorama
+		.animate('#propeller1',{duration: 600, property:'rotate', start:0, end: 360, pin: true})
+		.animate('#frame1',{duration: 600, property:'left', end: -1400 });
+	
+	//chapter 8
+	scrollorama
+		.animate('#bg8',{ duration: 600, property:'top', start:-900 });
+		
+	//chapter 9
+	scrollorama
+		.animate('#bg9',{ duration: 600, property:'top', start:-900 });
 	
 	
 	//animate title to explode
@@ -109,8 +125,11 @@ $(document).ready(function() {
 	//});
 	
 	//transitions	
-	scrollorama
-		.animate('#text',{ delay: 900, duration: 900, property:'opacity', start: 1, end: 0, pin: true });
+	//scrollorama
+		//.animate('#bg1',{ delay: 900, duration: 900, property:'opacity', start: 1, end: 0, pin: true });
+	//scrollorama
+		//.animate('#bg6',{ delay: 900, duration: 900, property:'opacity', start: 1, end: 0, pin: true });
+		
 		//.animate('#text',{ delay: 100, duration: 400, property:'opacity', start: 0, end: 1, pin: true });
 		//.animate('#fly-in',{ delay: 200, duration: 600, property:'left', start: -1400, end: 0, pin: true })
 		//.animate('#rotate',{ delay: 300, duration: 100, property:'rotate', start: 0, end: 720, pin: true })
@@ -119,7 +138,9 @@ $(document).ready(function() {
 		//.animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true });
 		
 	//paralax
-	//scrollorama
+	scrollorama
+		//.animate('#text2',{ delay: 900 , duration: 900, property:'opacity', start: 0, end: 1, pin: true })
+		//.animate('#text2',{ delay: 900 , duration: 900, property:'opacity', start: 1, end: 0, pin: true });
 		//.animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })
 		//.animate('#parallax3',{ delay: 200, duration: 1200, property:'top', start:500, end:-500 });
 		

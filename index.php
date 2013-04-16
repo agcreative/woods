@@ -17,66 +17,140 @@
 	<div id="nav">
 		<div id="woodslogo"><img src="images/woods-logo.png" alt="Woods" /></div>
 		<ul>
-			<li><span class="1 selected">1 <em>1800-1900</em></span></li>
-			<li><span class="2">2 <em>1800-1900</em></span></li>
-			<li><span class="3">3 <em>1800-1900</em></span></li>
-			<li><span class="4">4 <em>1800-1900</em></span></li>
-			<li><span class="5">5 <em>1800-1900</em></span></li>
-			<li><span class="6">6 <em>1800-1900</em></span></li>
-			<li><span class="7">7 <em>1800-1900</em></span></li>
-			<li><span class="8">8 <em>1800-1900</em></span></li>
-			<li><span class="9">9 <em>1800-1900</em></span></li>
+			<li><span class="one selected">1 <em>1800-1900</em></span></li>
+			<li><span class="two">2 <em>1800-1900</em></span></li>
+			<li><span class="three">3 <em>1800-1900</em></span></li>
+			<li><span class="four">4 <em>1800-1900</em></span></li>
+			<li><span class="five">5 <em>1800-1900</em></span></li>
+			<li><span class="six">6 <em>1800-1900</em></span></li>
+			<li><span class="seven">7 <em>1800-1900</em></span></li>
+			<li><span class="eight">8 <em>1800-1900</em></span></li>
+			<li><span class="nine">9 <em>1800-1900</em></span></li>
 		</ul>
 	</div>
 	<div id="wrap">
-		<div class="scrollblock" id="1">
-			<div id="text">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada arcu dapibus odio accumsan at varius erat mollis. Quisque dapibus lorem eu nulla sollicitudin dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam malesuada, sem a volutpat vestibulum, enim mi vulputate dui, ut euismod neque ligula nec dui. In ultricies, augue id tincidunt rutrum, nunc orci viverra velit, tristique scelerisque elit ligula at erat. Suspendisse potenti. Donec aliquet purus tristique ante suscipit condimentum. In hac habitasse platea dictumst. Sed ac ligula sagittis justo hendrerit facilisis eget quis velit. Duis pharetra metus vitae metus tempor tincidunt. Nam erat lacus, adipiscing at suscipit eget, fringilla non urna. Ut dignissim imperdiet massa nec vulputate. Aliquam ut est eros.</p>
-			<p>Quisque sit amet dui eu lacus scelerisque hendrerit. Nunc volutpat tristique lacus, at porta orci sagittis sit amet. Mauris vulputate leo in magna egestas dignissim. Aliquam dictum dignissim pulvinar. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vel ullamcorper erat. Nunc augue nulla, sollicitudin et scelerisque vitae, tristique eu ante. Fusce diam lacus, tempus ut facilisis a, fermentum ut massa. Ut auctor, tortor vel vehicula rhoncus, ipsum libero pharetra augue, non fringilla ligula lectus sed ligula. Integer a neque ac elit commodo egestas ut nec sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque semper sapien a metus scelerisque commodo. Quisque aliquet erat non sapien fringilla eget faucibus libero tincidunt. Nunc tincidunt varius egestas.</p>
-			</div>
+		<div class="scrollblock" id="one">
+				<img id="bg1" class="bg" src="images/chapter1/bg-one.png" alt="bg chapter one" />
+				<img id="frame1" class="frame" src="images/chapter1/frame.png" alt="frame" />
+				<img id="compass1" class="compass" src="images/chapter1/compass.png" alt="compass" />
+				<img id="propeller1" class="propeller" src="images/chapter1/propeller.png" alt="propeller" />
+				<h1 class="rotate">Chapter 1</h1>
+				<h2 class="rotate">A Nation &amp; A Brand are born (1867 - 1885)</h2>
+				<p class="textblock rotate">
+					In 1867, when James W. Woods was four years old, the
+					Dominion of Canada was born - three British Colonies
+					confederated into one vast nation with enormous regions
+					stil to be discovered and explored. Woods was surely
+					inspired by the youthfulness and possibility of his times
+					and his own early years were as rife with opportunity. In
+					1885, he established himself as an outfitter of canvas supplies
+					to lumbermen in the Ottawa Valley and his fortunes would
+					continue to be closely linked with those of his country in
+					the decades to follow.
+				</p>
 		</div>
-		<div class="scrollblock" id="2">
-			
+		<div class="scrollblock" id="two">
+		
 		</div>
-		<div class="scrollblock" id="3">
+		<div class="scrollblock" id="three">
 
 	
 		</div>
-		<div class="scrollblock" id="4">
+		<div class="scrollblock" id="four">
 
 		</div>
-		<div class="scrollblock" id="5">
+		<div class="scrollblock" id="five">
 
 		</div>
-		<div class="scrollblock" id="6">	
-			<div id="navi">
-				<ul class="clearfix">
-					<li><a href="javascript:void(0);" class="picker1" data="1">1</a></li>
-					<li><a href="javascript:void(0);" class="picker2" data="2">2</a></li>
-					<li><a href="javascript:void(0);" class="picker3" data="3">3</a></li>
-				</ul>
-			</div>
-		
-			<div id="background">
-				<div class="bg bg1">
-					<img src="http://www.noelfox.com/wp-content/uploads/2012/12/home-01.jpg" />
-				</div>
-				<div class="bg bg2">
-					<img src="http://www.noelfox.com/wp-content/uploads/2012/12/home-02.jpg" />
-				</div>
-				<div class="bg bg3">
-					<img src="http://www.noelfox.com/wp-content/uploads/2012/12/home-03.jpg" />
-				</div>
-			</div>
+		<div class="scrollblock" id="six">	
+			<img id="bg6" class="bg" src="images/chapter6/bg-six.png" alt="bg chapter six" />
+			<img id="frame2" class="frame2" src="images/chapter6/frame2.png" alt="frame 2" />
+			<img id="frame2" class="frame1" src="images/chapter6/frame1.png" alt="frame 1" />
+			<img id="gasmask" class="gasmask" src="images/chapter6/gas-mask.png" alt="gas mask" />
+			<h1 class="rotate">Chapter 6</h1>
+			<h2 class="rotate">The World Wars<br /> - Woods and Canada go to War</h2>
+			<p class="textblock1 rotate">
+				The Canadian Artic Expedition
+				crew arrived home far removed
+				from the knowledge of the First
+				World War which had been embroiling
+				much of the rest of <br />the world since
+				1914. But the
+			</p>
+			<p class="textblock2 rotate">war was another important mission for Woods. During WWI,
+			James W. Woods was the Lieutenant-General of the Governor
+			General's Foot Guards regiment and tragically, his eldest son
+			John R. Woods was killed while serving overseas. Supplying tents,
+			sleeping bags and other goods to Allied soldiers in both World Wars,
+			Woods also created the first gas masks for the Canadian army. Indeed the
+			reach of Woods into Canadian life was so extensive that during WWII the company<br />
+			published an advertisement requesting<br /> customers' patience while Woods'<br />
+			production was tied up in<br /> supporting the war effort.</p>
 		</div>
-		<div class="scrollblock" id="7">
-
+		<div class="scrollblock" id="seven">
+			
 		</div>
-		<div class="scrollblock" id="8">
-
+		<div class="scrollblock" id="eight">
+			<img id="bg8" class="bg" src="images/chapter8/bg-eight.png" alt="bg chapter eight" />
+			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
+			<h1 class="rotate">Chapter 8</h1>
+			<h2 class="rotate">Mid twentieth century - <br /> Woods and the Nation come of Age</h2>
+			<p class="textblock1 rotate">It wasn't just polar explores and the Allied forces who swore by the brand, but also
+			ordinary people for whom Canada's vast wilderness was becoming more accessible thanks
+			<img src="images/chapter8/transparent.png" alt="transparent" style="float: right; height: 240px; width: 200px;" />
+			to Woods outdoor gear. The use of the automobile for recreational purpose grew
+			rapidly in Canada in the 1950's while
+			Woods advertised their gear as used by
+			"porch sleepers, fishermen, campers,
+			hunters, explorers, aviators, prospectors
+			and sourdoughs." Their tents included
+			those for ordinary campers, for children,
+			for backyard garden parties, carnivals,
+			and even black tents for moving picture
+			shows. Woods manufactured bags for
+			newsboys, mail carriers, and railway</p>
+			
+			<p class="textblock2 rotate">laundry. They made piano covers, horse blankets, canvas car garages, life
+			preservers, golf bags and bags for hockey equipment. They were also proclaimed
+			to be the largest flag manufacturers in Canada
+			<img src="images/chapter8/transparent.png" alt="transparent" style="float: left; height: 240px; width: 200px;" />
+			( as well as the supplier to the
+			Pearson government who raised the new Canadian flag atop the Peace Tower in 1967).</p>
+			
+			<p class="textblock3 rotate">
+			<img src="images/chapter8/transparent.png" alt="transparent" style="float: left; height: 240px; width: 200px;" />
+			Even Ernest Hemingway, the celebrated American author and avid outdoorsman, had Woods
+			gear. He demonstrated his devotion to the brand in his novel For Whom the Bell Tolls,
+			making a Woods sleeping robe a significant plot point and the setting for his most
+			famous love scene.</p>
+			
+			<blockquote class="quote rotate">
+				"You don't know why those eiderdowns ( fromt the Woods Boys ) cost
+				sixty-five dollars", Robert Jordan thought. I'd like to have a dollar
+				for every day that I have slept in that thing in the snow."<br />
+				<em><sup>*</sup>(excerpt from Ernest Hemingway's book) "For whom the Bell Tolls".</em>
+			</blockquote>
+			<img id="book" class="book" src="images/chapter8/book.png" alt="book" />
+			
+			
+			
 		</div>
-		<div class="scrollblock" id="9">
-
+		<div class="scrollblock" id="nine">
+			<img id="bg9" class="bg" src="images/chapter9/bg-nine.png" alt="bg chapter nine" />
+			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
+			<img id="frame2" class="frame2" src="images/chapter9/frame2.png" alt="frame 2" />
+			<img id="realguy" class="realguy" src="images/chapter9/real-guy.png" alt="real guy" />
+			<h1 class="rotate">Chapter 9</h1>
+			<h2 class="rotate">1982 - Reaching new heights</h2>
+			<p class="textblock1 rotate">
+				By 1982, there were few places on earth where Woods and
+				Canadians hadn't yet travelled but more extreme adventure
+				with Woods was still to be had. In that year, when Laurie Skreslet
+				became the first Canadian to reach the summit of Mount Everest, Woods
+				was a significant contributor to the expedition. The<br /> company had supplied
+				the Canadian Team with tents, sleeping<br /> bags and parkas they would use at
+				the<br /> world's greatest heights.
+			</p>
 		</div>
 	</div>
 </div><!-- end body-wrapper -->
