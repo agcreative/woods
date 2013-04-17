@@ -152,6 +152,7 @@ $(document).ready(function() {
 	//chapter 6
 	var gasmask = $('#scroll6 .gasmask');
 	var c6frame2 = $('#scroll6 .frame2');
+	var c6frame1 = $('#scroll6 .frame1');
 	var bg6 = $('#bg6');
 	
 	gasmask.each(function(){
@@ -159,27 +160,64 @@ $(document).ready(function() {
 			.animate($(this),{ delay: 200, duration: 400, property:'right', start: -1400 });
 	});
 	
-	
-	scrollorama	
-		.animate('#scroll6 .frame2',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#scroll6 .frame2',{ delay: 200, duration: 400, property:'top', start:-400 })
-		.animate('#scroll6 .frame1',{ delay: 100, duration: 500, property:'top', start:-200 })
-		.animate('#scroll6 .frame1',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#bg6',{ delay: 200, duration: 400, property:'top', end: 0 });
+	c6frame2.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 });
 		
-	//chapter 7
-	scrollorama
-		.animate('#scroll7 .frame2',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#scroll7 .frame2',{ delay: 200, duration: 400, property:'top', start:-400 })
-		.animate('#scroll7 .frame1',{ delay: 100, duration: 500, property:'top', start:-200 })
-		.animate('#scroll7 .frame1',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#bg7',{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
 	
+	c6frame1.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 });
+	});
+	
+	bg6.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+	
+	//chapter 7
+	var c7frame2 = $('#scroll7 .frame2');
+	var c7frame1 = $('#scroll7 .frame1');
+	var bg7 = $('#bg7');
+	
+	c7frame2.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
+	});
+	
+	c7frame1.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+	});
+	
+	bg7.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+
+
 	//chapter 8
-	scrollorama
-		.animate('#scroll8 .frame1',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#scroll8 .frame1',{ delay: 200, duration: 400, property:'left', start: -1400 })
-		.animate('#bg8',{ delay: 200, duration: 400, property:'top', end: 0 });
+	var c8frame1 = $('#scroll8 .frame1');
+	var bg8 = $('#bg8');
+	
+	c7frame1.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'left', start: -1400 })
+	});
+	
+	bg8.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+
 		
 	//chapter 9
 	scrollorama
