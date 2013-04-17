@@ -116,8 +116,7 @@ $(document).ready(function() {
 	
 	  //compass animation
 	  function runIt(){		  
-		  var random = Math.random()*720-360;
-	  
+		  var random = Math.random()*720-360;	  
 		  $('#propeller1').rotate({
 			angle: $(this).getRotateAngle(), 
 			animateTo: random,
@@ -140,7 +139,7 @@ $(document).ready(function() {
 	});
 	c1frame1.each(function(){
 		scrollorama
-			.animate($(this),{ delay: 200, duration: 400, property:'left', end: -1400 })
+			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 })
 			.animate($(this),{ delay: 200, duration: 400, property:'rotate', end: Math.random()*720-360 });
 	});
 	propeller.each(function(){
@@ -206,7 +205,7 @@ $(document).ready(function() {
 	var c8frame1 = $('#scroll8 .frame1');
 	var bg8 = $('#bg8');
 	
-	c7frame1.each(function(){
+	c8frame1.each(function(){
 		scrollorama
 			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
 			.animate($(this),{ delay: 200, duration: 400, property:'left', start: -1400 })
@@ -218,17 +217,29 @@ $(document).ready(function() {
 	});
 	
 
-		
 	//chapter 9
-	scrollorama
-		.animate('#scroll9 .frame2',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#scroll9 .frame2',{ delay: 200, duration: 400, property:'top', start:-400 })
-		.animate('#scroll9 .frame1',{ delay: 100, duration: 500, property:'top', start:-200 })
-		.animate('#scroll9 .frame1',{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-		.animate('#bg9',{ duration: 600, property:'top', end: 0 });
-		
+	var c9frame2 = $('#scroll9 .frame2');
+	var c9frame1 = $('#scroll9 .frame1');
+	var bg9 = $('#bg9');
 	
+	c9frame2.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
+	});
 	
+	c9frame1.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+	});
+	
+	bg9.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+
+			
 	//animate title to explode
 	//scrollorama
 		//.animate('#title',{ duration: 100, property:'zoom', end: 8 });
