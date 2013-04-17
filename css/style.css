@@ -100,6 +100,7 @@ body {
 	background: url(../images/bg-map.jpg) center 0 no-repeat fixed #000;
 	color: #fff;
 	text-align: center;
+	padding-bottom: 10px;
 }
 #nav {
 	position: relative;
@@ -202,10 +203,10 @@ body {
 .scrollblock {	
 	position: relative;
 	margin: 0;
-	width: 1222px;
+	width: 1500px;
 	height: 918px;
 	overflow: hidden;
-	padding: 0 0 0 278px;
+	padding: 0 0 0 0;
 }
 
 #body-wrapper{
@@ -319,14 +320,16 @@ body {
 /* ######################################
 	chapter 1
 ####################################### */
+#scroll1 {
 
+}
 #scroll1 .bg {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
-#scroll1 .frame {
+#scroll1 .frame1 {
     position: absolute;
     right: 650px;
     top: 521px;
@@ -359,7 +362,7 @@ body {
 
 #scroll6 .bg {
 	position: absolute;
-	top: 0;
+	top: -200px;
 	right: 0;
 }
 
@@ -400,12 +403,58 @@ body {
 }
 
 /* ######################################
+	chapter 7
+####################################### */
+
+#scroll7 .bg {
+	position: absolute;
+	top: -200px;
+	right: 0;
+}
+
+#scroll7 .frame1 {
+    position: absolute;
+    right: 350px;
+    top: 360px;
+    z-index: 10;
+}
+
+#scroll7 .frame2 {
+    position: absolute;
+    right: 630px;
+    top: 550px;
+    z-index: 10;
+}
+
+#scroll7 .textblock1 {
+    position: absolute;
+    right: 766px;
+    text-align: left;
+    top: 250px;
+    width: 500px;
+}
+
+#scroll7 .textblock2 {
+    position: absolute;
+    right: 766px;
+    top: 444px;
+    width: 510px;
+}
+
+#scroll7 .textblock3 {
+    position: absolute;
+    right: 206px;
+    top: 281px;
+    width: 510px;
+}
+
+/* ######################################
 	chapter 8
 ####################################### */
 
 #scroll8 .bg {
 	position: absolute;
-	top: -900px;
+	top: -200px;
 	right: 0;
 }
 
@@ -414,6 +463,7 @@ body {
     right: 550px;
     top: 386px;
     z-index: 10;
+    zoom: 8;
 }
 
 #scroll8 .book {
@@ -471,10 +521,12 @@ body {
 /* ######################################
 	chapter 9
 ####################################### */
-
+#scroll9 {
+	height: 100%;
+}
 #scroll9 .bg {
 	position: absolute;
-	top: -900px;
+	top: -200px;
 	right: 0;
 }
 

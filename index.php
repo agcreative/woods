@@ -12,7 +12,6 @@
 
 <p id="console"></p>
 <div id="body-wrapper">
-	
 	<div id="bookcover"><img src="images/bg-book-cover.png" alt="Book Cover" /></div>
 	<div id="nav">
 		<div id="woodslogo"><img src="images/woods-logo.png" alt="Woods" /></div>
@@ -31,7 +30,7 @@
 	<div id="wrap">
 		<div class="scrollblock" id="scroll1">
 				<img id="bg1" class="bg" src="images/chapter1/bg-one.png" alt="bg chapter one" />
-				<img id="frame1" class="frame" src="images/chapter1/frame.png" alt="frame" />
+				<img id="frame1" class="frame1" src="images/chapter1/frame.png" alt="frame" />
 				<img id="compass1" class="compass" src="images/chapter1/compass.png" alt="compass" />
 				<img id="propeller1" class="propeller" src="images/chapter1/propeller.png" alt="propeller" />
 				<h1 class="rotate">Chapter 1</h1>
@@ -88,7 +87,26 @@
 			production was tied up in<br /> supporting the war effort.</p>
 		</div>
 		<div class="scrollblock" id="scroll7">
+			<img id="bg7" class="bg" src="images/chapter7/bg-seven.png" alt="bg chapter seven" />
+			<img id="frame2" class="frame1" src="images/chapter7/frame1.png" alt="frame 1" />
+			<img id="frame2" class="frame2" src="images/chapter7/frame2.png" alt="frame 2" />
+			<h1 class="rotate">Chapter 7</h1>
+			<h2 class="rotate">The legacy of exploration grows</h2>
+			<p class="textblock1 rotate">Meanwhile, through Woods' affiliations with both the
+			National Geographic Society and the Royal Geographic Society in the U.K., Woods Canada
+			outfitted many more of the most important exploratory ventures of the early 20th Century,
+			including the Roosevelt Field Expedition through<br /> Central Asia, Admiral Byrd's expedition
+			in the Antartic<br /> and the first ascent of Canada's highest peak,<br /> Mount Logan. in 1925.	
+			</p>
+			<p class="textblock2 rotate">Woods played another vital role in Canadian history when
+			it outfitted the Royal Canadian Mounted Police schooner, St Roch, in the late nineteen
+			thirties. In 1940-1942, the St Roch became the first vessel to complete a voyage through<br />
+			the Northwest Passage in <br />a west to east direction, <br />and in 1944 became the <br />first vessel to make
+			a <br />return trip through the <br />Northwest Passage in a<br /> single season. In 1950</p>
 			
+			<p class="textblock3 rotate">she became the first vessel to circumnavigate North America.
+			The St Roch is currently on display in the Canadian National Maritime Museum in Vancouver
+			for preservation.</p>
 		</div>
 		<div class="scrollblock" id="scroll8">
 			<img id="bg8" class="bg" src="images/chapter8/bg-eight.png" alt="bg chapter eight" />
@@ -155,6 +173,7 @@
 
 <script src="js/respond.js"></script>
 <script src="js/jquery.scrollorama.js"></script>
+<script src="js/jQueryRotate.2.2.js"></script>
 <script src="js/application.js"></script>
 </html>
 
