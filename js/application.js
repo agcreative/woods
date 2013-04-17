@@ -81,6 +81,10 @@ $(document).ready(function() {
 	// assign function to add behavior for onBlockChange event
 	scrollorama.onBlockChange(function() {
 		var i = scrollorama.blockIndex;
+		var k = scrollorama.settings.blocks.eq(i).attr('id');
+		
+
+		
 		$('#console')
 			.css('display','block')
 			.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
@@ -88,16 +92,21 @@ $(document).ready(function() {
 		$('#nav span').removeClass('selected');
 		
 		//selected state on nav by scrollevent
-		$('#nav li').each(function( index ){
-			if( i == index){
+		$('#nav li').each(function( index ){			
+			var index = index + 1;
+			var index = 'scroll'+index;
+
+			if( k == index){
 				$(this).children().addClass('selected');
-			}
+			}							
 		});
 		
-		
-		
-		
-	
+		if( k == 'scroll9'){
+			$('#realguy').fadeIn();
+		}else{
+			$('#realguy').fadeOut();
+		}
+					
 	});
 	
 	//chapter 1
@@ -107,11 +116,11 @@ $(document).ready(function() {
 	
 	//chapter 8
 	scrollorama
-		.animate('#bg8',{ duration: 600, property:'top', start:-900 });
+		.animate('#bg8',{ duration: 600, property:'top', end: 0 });
 		
 	//chapter 9
 	scrollorama
-		.animate('#bg9',{ duration: 600, property:'top', start:-900 });
+		.animate('#bg9',{ duration: 600, property:'top', end: 0 });
 	
 	
 	//animate title to explode
@@ -138,7 +147,7 @@ $(document).ready(function() {
 		//.animate('#unpin',{ duration:500, property:'padding-top', start:400, pin:true });
 		
 	//paralax
-	scrollorama
+	//scrollorama
 		//.animate('#text2',{ delay: 900 , duration: 900, property:'opacity', start: 0, end: 1, pin: true })
 		//.animate('#text2',{ delay: 900 , duration: 900, property:'opacity', start: 1, end: 0, pin: true });
 		//.animate('#parallax2',{ delay: 400, duration: 600, property:'top', start:800, end:-800 })

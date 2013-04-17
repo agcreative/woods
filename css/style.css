@@ -320,32 +320,32 @@ body {
 	chapter 1
 ####################################### */
 
-#one .bg {
+#scroll1 .bg {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
-#one .frame {
+#scroll1 .frame {
     position: absolute;
     right: 650px;
     top: 521px;
 }
 
-#one .compass {
+#scroll1 .compass {
     position: absolute;
     right: 126px;
     top: 561px;
 }
 
-#one .textblock {  
+#scroll1 .textblock {  
     position: absolute;
     right: 726px;
     top: 261px;
     width: 510px;
 }
 
-#one .propeller {
+#scroll1 .propeller {
     position: absolute;
     right: 219px;
     text-align: left;
@@ -357,34 +357,34 @@ body {
 	chapter 6
 ####################################### */
 
-#six .bg {
+#scroll6 .bg {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
 
-#six .frame1 {
+#scroll6 .frame1 {
     position: absolute;
     right: 760px;
     top: 451px;
     z-index: 10;
 }
 
-#six .frame2 {
+#scroll6 .frame2 {
     position: absolute;
     right: 970px;
     top: 291px;
     z-index: 10;
 }
 
-#six .gasmask {
+#scroll6 .gasmask {
     position: absolute;
     right: 126px;
     bottom: 0;
     z-index: 10;
 }
 
-#six .textblock1 {
+#scroll6 .textblock1 {
     position: absolute;
     right: 766px;
     text-align: right;
@@ -392,7 +392,7 @@ body {
     width: 280px;
 }
 
-#six .textblock2 {
+#scroll6 .textblock2 {
     position: absolute;
     right: 216px;
     top: 331px;
@@ -403,27 +403,27 @@ body {
 	chapter 8
 ####################################### */
 
-#eight .bg {
+#scroll8 .bg {
 	position: absolute;
-	top: 0;
+	top: -900px;
 	right: 0;
 }
 
-#eight .frame1 {
+#scroll8 .frame1 {
     position: absolute;
     right: 550px;
     top: 386px;
     z-index: 10;
 }
 
-#eight .book {
+#scroll8 .book {
     position: absolute;
     right: 1020px;
     top: 626px;
     z-index: 10;
 }
 
-#eight blockquote {
+#scroll8 blockquote {
     background: url("../images/chapter8/bg-quote.png") repeat-x scroll 0 0 transparent;
     color: #000000;
     display: block;
@@ -440,11 +440,11 @@ body {
     letter-spacing: 1px;
 }
 
-#eight blockquote em {
+#scroll8 blockquote em {
 	font-size: 16px;
 }
 
-#eight .textblock1 {
+#scroll8 .textblock1 {
     position: absolute;
     right: 736px;
     text-align: left;
@@ -452,7 +452,7 @@ body {
     width: 512px;
 }
 
-#eight .textblock2 {
+#scroll8 .textblock2 {
     position: absolute;
     right: 190px;
     text-align: left;
@@ -460,7 +460,7 @@ body {
     width: 522px;
 }
 
-#eight .textblock3 {
+#scroll8 .textblock3 {
     position: absolute;
     right: 198px;
     text-align: left;
@@ -472,34 +472,35 @@ body {
 	chapter 9
 ####################################### */
 
-#nine .bg {
+#scroll9 .bg {
 	position: absolute;
-	top: 0;
+	top: -900px;
 	right: 0;
 }
 
-#nine .frame1 {
+#scroll9 .frame1 {
     position: absolute;
     right: 520px;
     top: 440px;
     z-index: 10;
 }
 
-#nine .frame2 {
+#scroll9 .frame2 {
     position: absolute;
     right: 808px;
     top: 521px;
     z-index: 10;
 }
 
-#nine .realguy {
+#scroll9 .realguy {
     position: absolute;
     right: 155px;
     top: 306px;
     z-index: 10;
+    display: none;
 }
 
-#nine .textblock1 {
+#scroll9 .textblock1 {
     position: absolute;
     right: 686px;
     text-align: left;

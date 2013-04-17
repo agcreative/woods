@@ -17,19 +17,19 @@
 	<div id="nav">
 		<div id="woodslogo"><img src="images/woods-logo.png" alt="Woods" /></div>
 		<ul>
-			<li><span class="one selected">1 <em>1800-1900</em></span></li>
-			<li><span class="two">2 <em>1800-1900</em></span></li>
-			<li><span class="three">3 <em>1800-1900</em></span></li>
-			<li><span class="four">4 <em>1800-1900</em></span></li>
-			<li><span class="five">5 <em>1800-1900</em></span></li>
-			<li><span class="six">6 <em>1800-1900</em></span></li>
-			<li><span class="seven">7 <em>1800-1900</em></span></li>
-			<li><span class="eight">8 <em>1800-1900</em></span></li>
-			<li><span class="nine">9 <em>1800-1900</em></span></li>
+			<li><span class="scroll1 selected">1 <em>1800-1900</em></span></li>
+			<li><span class="scroll2">2 <em>1800-1900</em></span></li>
+			<li><span class="scroll3">3 <em>1800-1900</em></span></li>
+			<li><span class="scroll4">4 <em>1800-1900</em></span></li>
+			<li><span class="scroll5">5 <em>1800-1900</em></span></li>
+			<li><span class="scroll6">6 <em>1800-1900</em></span></li>
+			<li><span class="scroll7">7 <em>1800-1900</em></span></li>
+			<li><span class="scroll8">8 <em>1800-1900</em></span></li>
+			<li><span class="scroll9">9 <em>1800-1900</em></span></li>
 		</ul>
 	</div>
 	<div id="wrap">
-		<div class="scrollblock" id="one">
+		<div class="scrollblock" id="scroll1">
 				<img id="bg1" class="bg" src="images/chapter1/bg-one.png" alt="bg chapter one" />
 				<img id="frame1" class="frame" src="images/chapter1/frame.png" alt="frame" />
 				<img id="compass1" class="compass" src="images/chapter1/compass.png" alt="compass" />
@@ -49,20 +49,20 @@
 					the decades to follow.
 				</p>
 		</div>
-		<div class="scrollblock" id="two">
+		<div class="scrollblock" id="scroll2">
 		
 		</div>
-		<div class="scrollblock" id="three">
+		<div class="scrollblock" id="scroll3">
 
 	
 		</div>
-		<div class="scrollblock" id="four">
+		<div class="scrollblock" id="scroll4">
 
 		</div>
-		<div class="scrollblock" id="five">
+		<div class="scrollblock" id="scroll5">
 
 		</div>
-		<div class="scrollblock" id="six">	
+		<div class="scrollblock" id="scroll6">	
 			<img id="bg6" class="bg" src="images/chapter6/bg-six.png" alt="bg chapter six" />
 			<img id="frame2" class="frame2" src="images/chapter6/frame2.png" alt="frame 2" />
 			<img id="frame2" class="frame1" src="images/chapter6/frame1.png" alt="frame 1" />
@@ -87,10 +87,10 @@
 			published an advertisement requesting<br /> customers' patience while Woods'<br />
 			production was tied up in<br /> supporting the war effort.</p>
 		</div>
-		<div class="scrollblock" id="seven">
+		<div class="scrollblock" id="scroll7">
 			
 		</div>
-		<div class="scrollblock" id="eight">
+		<div class="scrollblock" id="scroll8">
 			<img id="bg8" class="bg" src="images/chapter8/bg-eight.png" alt="bg chapter eight" />
 			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
 			<h1 class="rotate">Chapter 8</h1>
@@ -131,11 +131,8 @@
 				<em><sup>*</sup>(excerpt from Ernest Hemingway's book) "For whom the Bell Tolls".</em>
 			</blockquote>
 			<img id="book" class="book" src="images/chapter8/book.png" alt="book" />
-			
-			
-			
 		</div>
-		<div class="scrollblock" id="nine">
+		<div class="scrollblock" id="scroll9">
 			<img id="bg9" class="bg" src="images/chapter9/bg-nine.png" alt="bg chapter nine" />
 			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
 			<img id="frame2" class="frame2" src="images/chapter9/frame2.png" alt="frame 2" />
