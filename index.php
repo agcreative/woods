@@ -83,7 +83,11 @@
 			<img id="bg6" class="bg" src="images/chapter6/bg-six.png" alt="bg chapter six" />
 			<img id="frame2" class="frame2" src="images/chapter6/frame2.png" alt="frame 2" />
 			<img id="frame2" class="frame1" src="images/chapter6/frame1.png" alt="frame 1" />
+			
 			<img id="gasmask" class="gasmask" src="images/chapter6/gas-mask.png" alt="gas mask" />
+			<img id="smoke2" class="smoke2" src="images/chapter6/smoke2.png" alt="smoke2" />
+			<img id="smoke3" class="smoke3" src="images/chapter6/smoke2.png" alt="smoke3" />
+			<img id="smoke" class="smoke" src="images/chapter6/smoke.png" alt="smoke" />
 			<h1 class="rotate">Chapter 6</h1>
 			<h2 class="rotate">The World Wars<br /> - Woods and Canada go to War</h2>
 			<p class="textblock1 rotate">

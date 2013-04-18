@@ -85,9 +85,9 @@ $(document).ready(function() {
 		
 
 		
-		$('#console')
-			.css('display','block')
-			.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
+		//$('#console')
+			//.css('display','block')
+			//.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
 		
 		$('#nav span').removeClass('selected');
 		
@@ -105,17 +105,19 @@ $(document).ready(function() {
 		//jquery animation chapter 3
 		//glowing lamp
 		if(k == 'scroll3'){	
-			function lampLits() {
-			jQuery("#lampnotlit")
-				.animate({opacity: 0}, {duration: 1000})
-				.animate({opacity: 1.0}, {duration: 2000, complete: lampLits})
-				
-				return false;
-			}
 			lampLits();			
 		}else{
 			//do nothing
 		}
+		
+		
+		//jquery animation chapter 6
+		if(k == 'scroll6'){
+			smokeIt();
+			smokeIt2();
+			smokeIt3;
+		}
+		
 		
 		//jquery animation chapter 7
 		if(k == 'scroll7'){
@@ -135,12 +137,21 @@ $(document).ready(function() {
 					
 	});
 	
+			//lamp
+			function lampLits() {
+			var lampnotlit = $("#lampnotlit");
+				lampnotlit.animate({opacity: 0}, {duration: 1000})
+				.animate({opacity: 1.0}, {duration: 2000, complete: lampLits})
+				
+				return false;
+			}
 
 
 		//wheel
-		function wheelIt(){		  
+		function wheelIt(){
+		  var wheel = $("#wheel");
 		  var random = Math.random()*720-360;	  
-		  $('#wheel').rotate({
+		  wheel.rotate({
 			angle: $(this).getRotateAngle(), 
 			animateTo: random,
 			duration: 9000,
@@ -152,8 +163,9 @@ $(document).ready(function() {
 	  //jquery animation chapter 1
 	  //compass animation
 	  function runIt(){		  
+	  	  var propeller = $('#propeller1');
 		  var random = Math.random()*720-360;	  
-		  $('#propeller1').rotate({
+		  propeller.rotate({
 			angle: $(this).getRotateAngle(), 
 			animateTo: random,
 			duration: 6000,
@@ -161,6 +173,43 @@ $(document).ready(function() {
 		  });
 	  }
 	  runIt();
+	  
+	  function smokeIt(){
+		var smoke = $('#smoke');
+			smoke.animate({
+				right: 10,
+				opacity: 1.0
+			}, {duration: 4000})
+			.animate({
+				right: -10,
+				opacity: 0
+			}, { duration: 4000, complete: smokeIt })
+	}
+	
+	function smokeIt2(){
+		var smoke2 = $('#smoke2');
+			smoke2.animate({
+				right: -10,
+				opacity: 1.0
+			}, {duration: 4000})
+			.animate({
+				right: 10,
+				opacity: 0
+			}, { duration: 4000, complete: smokeIt2 })
+	}
+	
+	function smokeIt3(){
+		var smoke3 = $('#smoke3');
+			smoke3.animate
+			.animate({
+				right: -10,
+				opacity: 1.0
+			}, {duration: 4000})
+			.animate({
+				right: 10,
+				opacity: 0
+			}, { duration: 4000, complete: smokeIt2 })
+	}
 	  
 	
 	//chapter 1

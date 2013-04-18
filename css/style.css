@@ -437,6 +437,20 @@ body {
     z-index: 10;
 }
 
+#scroll6 .smoke {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+#scroll6 .smoke2 {
+    position: absolute;
+    right: -40px;
+    bottom: 0;
+    z-index: 10;
+}
+
 #scroll6 .textblock1 {
     position: absolute;
     right: 766px;
