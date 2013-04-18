@@ -257,7 +257,7 @@ $(document).ready(function() {
 	video.each(function(){
 		scrollorama
 			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
-			.animate($(this),{ delay: 400, duration: 200, property:'top', start:-400 })
+			.animate($(this),{ delay: 400, duration: 200, property:'bottom', start:400 })
 	});
 	
 	bg3.each(function(){
