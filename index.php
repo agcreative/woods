@@ -52,7 +52,25 @@
 		
 		</div>
 		<div class="scrollblock" id="scroll3">
-
+			<img id="bg3" class="bg" src="images/chapter3/bg-three.png" alt="bg chapter three" />
+			<img id="lamplit" class="lamplit" src="images/chapter3/lamp-lit.png" alt="lamp" />
+			<img id="lampnotlit" class="lampnotlit" src="images/chapter3/lamp-not-lit.png" alt="lamp 2" />
+			<img id="letter" class="letter" src="images/chapter3/letter.png" alt="letter" />
+			<img id="frame1" class="frame1" src="images/chapter3/frame1.png" alt="frame" />
+			<img id="video" class="video" src="images/chapter3/video.png" alt="video" />
+			<h1 class="rotate">Chapter 3</h1>
+			<h2 class="rotate">Early 20th century at home</h2>
+			<p class="textblock rotate">Back home in Canada, the nation was expanding
+			westward and Woods was leading the grand adventure. The Klondike Gold
+			rush had begun in 1896 with the discovery of gold at Bonanza Creek in
+			the Yukon. For the next several years, the area was flush with "stampeders"
+			carrying Woods packsacks stocked with Woods tents, sleeping bags, mackinaw
+			sweaters, camp stoves and more. In 1898, notable geologist and mining consultant
+			Joseph B. Tyrell wrote to Woods to "testify to the excellence of the Eiderdown
+			sleeping bag obtained from you," which he declared "the most comfortable bed
+			that I have ever had in the field."
+			</p>
+			
 	
 		</div>
 		<div class="scrollblock" id="scroll4">
@@ -90,6 +108,7 @@
 			<img id="bg7" class="bg" src="images/chapter7/bg-seven.png" alt="bg chapter seven" />
 			<img id="frame2" class="frame1" src="images/chapter7/frame1.png" alt="frame 1" />
 			<img id="frame2" class="frame2" src="images/chapter7/frame2.png" alt="frame 2" />
+			<img id="wheel" class="wheel" src="images/chapter7/wheel.png" alt="wheel" />
 			<h1 class="rotate">Chapter 7</h1>
 			<h2 class="rotate">The legacy of exploration grows</h2>
 			<p class="textblock1 rotate">Meanwhile, through Woods' affiliations with both the

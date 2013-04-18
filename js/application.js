@@ -101,19 +101,55 @@ $(document).ready(function() {
 			}		
 		});
 		
+		
+		//jquery animation chapter 3
+		//glowing lamp
+		if(k == 'scroll3'){	
+			function lampLits() {
+			jQuery("#lampnotlit")
+				.animate({opacity: 0}, {duration: 1000})
+				.animate({opacity: 1.0}, {duration: 2000, complete: lampLits})
+				
+				return false;
+			}
+			lampLits();			
+		}else{
+			//do nothing
+		}
+		
+		//jquery animation chapter 7
+		if(k == 'scroll7'){
+			wheelIt();
+		}
+		
+
 
 		//jquery animation chapter 9
 		if(k == 'scroll9'){
 			$('#realguy').fadeIn(3000);		
 		}else{
-			$('#realguy').fadeOut();
-			
+			$('#realguy').fadeOut();			
 		}
+
+
 					
 	});
 	
 
-	
+
+		//wheel
+		function wheelIt(){		  
+		  var random = Math.random()*720-360;	  
+		  $('#wheel').rotate({
+			angle: $(this).getRotateAngle(), 
+			animateTo: random,
+			duration: 9000,
+			callback: function(){ wheelIt(); }
+		  });
+		}
+		
+
+	  //jquery animation chapter 1
 	  //compass animation
 	  function runIt(){		  
 		  var random = Math.random()*720-360;	  
@@ -139,12 +175,45 @@ $(document).ready(function() {
 	});
 	c1frame1.each(function(){
 		scrollorama
-			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 })
+			.animate($(this),{ delay: 200, duration: 400, property:'left', end: -1400 })
 			.animate($(this),{ delay: 200, duration: 400, property:'rotate', end: Math.random()*720-360 });
 	});
 	propeller.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 });	
+	});
+	
+	//chapter 3
+	var lamplit = $('#scroll3 .lamplit');	
+	var lampnotlit = $('#scroll3 .lampnotlit');
+	var c3frame1 = $('#scroll3 .frame1');
+	var video = $('#scroll3 .video');
+	var bg3 = $('#bg3');
+	
+	lamplit.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 500, duration: 100, property:'top', start: -900 });	
+	});
+	lampnotlit.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 500, duration: 100, property:'top', start: -900 });	
+	});
+	
+	c3frame1.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
+	});
+	
+	video.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 400, duration: 200, property:'top', start:-400 })
+	});
+	
+	bg3.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
 	});
 
 	
@@ -156,7 +225,7 @@ $(document).ready(function() {
 	
 	gasmask.each(function(){
 		scrollorama
-			.animate($(this),{ delay: 200, duration: 400, property:'right', start: -1400 });
+			.animate($(this),{ duration: 600, property:'top', start: -1400 });
 	});
 	
 	c6frame2.each(function(){
@@ -182,6 +251,7 @@ $(document).ready(function() {
 	var c7frame2 = $('#scroll7 .frame2');
 	var c7frame1 = $('#scroll7 .frame1');
 	var bg7 = $('#bg7');
+	var wheel = $('#wheel');
 	
 	c7frame2.each(function(){
 		scrollorama
@@ -198,6 +268,11 @@ $(document).ready(function() {
 	bg7.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+	wheel.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'right', start: -1400 });
 	});
 
 

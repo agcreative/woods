@@ -331,7 +331,7 @@ body {
 
 #scroll1 .frame1 {
     position: absolute;
-    right: 650px;
+    left: 450px;
     top: 521px;
 }
 
@@ -355,6 +355,56 @@ body {
     top: 639px;
 }
 
+/* ######################################
+	chapter 3
+####################################### */
+
+#scroll3 .bg {
+	position: absolute;
+	top: -300px;
+	right: 0;
+}
+
+#scroll3 .frame1 {
+    left: 840px;
+    position: absolute;
+    top: 311px;
+}
+
+#scroll3 .lamplit {
+    position: absolute;
+    right: 186px;
+    top: 460px;
+}
+
+#scroll3 .lampnotlit {
+    position: absolute;
+    right: 186px;
+    top: 460px;
+}
+
+#scroll3 .textblock {  
+    position: absolute;
+    right: 726px;
+    top: 261px;
+    width: 510px;
+}
+
+#scroll3 .letter {
+    bottom: 0;
+    position: absolute;
+    right: 406px;
+}
+
+#scroll3 .video {
+    bottom: 50px;
+    position: absolute;
+    right: 736px;
+    z-index: 10;
+}
+
+
+
 
 /* ######################################
 	chapter 6
@@ -362,7 +412,7 @@ body {
 
 #scroll6 .bg {
 	position: absolute;
-	top: -200px;
+	top: -300px;
 	right: 0;
 }
 
@@ -408,7 +458,7 @@ body {
 
 #scroll7 .bg {
 	position: absolute;
-	top: -200px;
+	top: -300px;
 	right: 0;
 }
 
@@ -448,22 +498,28 @@ body {
     width: 510px;
 }
 
+#scroll7 .wheel {
+    position: absolute;
+    right: 186px;
+    top: 460px;
+    z-index: 10;
+}
+
 /* ######################################
 	chapter 8
 ####################################### */
 
 #scroll8 .bg {
 	position: absolute;
-	top: -200px;
+	top: -300px;
 	right: 0;
 }
 
 #scroll8 .frame1 {
     position: absolute;
-    right: 550px;
+    left: 580px;
     top: 386px;
     z-index: 10;
-    zoom: 8;
 }
 
 #scroll8 .book {
@@ -526,7 +582,7 @@ body {
 }
 #scroll9 .bg {
 	position: absolute;
-	top: -200px;
+	top: -300px;
 	right: 0;
 }
 
