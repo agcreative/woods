@@ -264,6 +264,101 @@ body {
 }
 
 /* ######################################
+	
+####################################### */
+
+.frame-container  {
+	position: absolute;
+	top: 300px;
+	right: 0;
+	padding: 15px;
+}
+
+.frame-container .mid {
+	background: #000;
+	width: 300px;
+	height: 100px;
+	display: block;
+}
+
+.frame-container .tl {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/frame-sprite.png) 0 0;
+	z-index: 10;
+}
+
+.frame-container .tr {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/frame-sprite.png) right 0 ;
+	z-index: 10;
+}
+
+.frame-container .br {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: url(../images/frame-sprite.png) right bottom ;
+	z-index: 10;
+}
+
+.frame-container .bl {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url(../images/frame-sprite.png) left bottom ;
+	z-index: 10;
+}
+
+.frame-container .tmid {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	height: 95px;
+	width: 90%;
+	background: url(../images/frame-hr.png) 0 0 repeat-x ;
+}
+
+.frame-container .bmid {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+	height: 95px;
+	width: 90%;
+	background: url(../images/frame-hb.png) 0 bottom repeat-x ;
+}
+
+.frame-container .rmid {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	height: 90%;
+	width: 95px;
+	background: url(../images/frame-vr.png) right 0 repeat-y ;
+}
+
+.frame-container .lmid {
+	position: absolute;
+	top: 10px;
+	left: 0;
+	height: 90%;
+	width: 95px;
+	background: url(../images/frame-vl.png) left 0 repeat-y ;
+}
+
+
+/* ######################################
 	background
 ####################################### */
 
@@ -403,6 +498,81 @@ body {
     z-index: 10;
 }
 
+#scroll3 object {
+    bottom: 90px;
+    position: absolute;
+    right: 783px;
+    z-index: 10;
+}
+
+/* ######################################
+	chapter 5
+####################################### */
+
+#scroll5 .bg {
+	position: absolute;
+	top: -300px;
+	right: 0;
+}
+
+#scroll5 .frame1 {
+    position: absolute;
+    left: 580px;
+    top: 386px;
+    z-index: 10;
+}
+
+#scroll5 .book {
+    position: absolute;
+    right: 1020px;
+    top: 626px;
+    z-index: 10;
+}
+
+#scroll5 blockquote {
+    background: url("../images/chapter8/bg-quote.png") repeat-x scroll 0 0 transparent;
+    color: #000000;
+    display: block;
+    font-family: Georgia;
+    font-size: 24px;
+    height: 130px;
+    left: 260px;
+    padding: 10px 170px;
+    position: absolute;
+    text-align: center;
+    top: 676px;
+    width: 635px;
+    z-index: 10;
+    letter-spacing: 1px;
+}
+
+#scroll5 blockquote em {
+	font-size: 16px;
+}
+
+#scroll5 .textblock1 {
+    position: absolute;
+    right: 736px;
+    text-align: left;
+    top: 303px;
+    width: 512px;
+}
+
+#scroll5 .textblock2 {
+    position: absolute;
+    right: 190px;
+    text-align: left;
+    top: 330px;
+    width: 522px;
+}
+
+#scroll5 .textblock3 {
+    position: absolute;
+    right: 198px;
+    text-align: left;
+    top: 500px;
+    width: 522px;
+}
 
 
 

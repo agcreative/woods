@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>scrollarama</title>
+	<title>Woods Canada</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/normalize.css" type="text/css">
 </head>
@@ -25,6 +25,7 @@
 			<li><span class="scroll7">7 <em>1800-1900</em></span></li>
 			<li><span class="scroll8">8 <em>1800-1900</em></span></li>
 			<li><span class="scroll9">9 <em>1800-1900</em></span></li>
+			<li><span class="scroll10">10 <em>1800-1900</em></span></li>
 		</ul>
 	</div>
 	<div id="wrap">
@@ -58,6 +59,7 @@
 			<img id="letter" class="letter" src="images/chapter3/letter.png" alt="letter" />
 			<img id="frame1" class="frame1" src="images/chapter3/frame1.png" alt="frame" />
 			<img id="video" class="video" src="images/chapter3/video.png" alt="video" />
+			<object width="416" height="234"><param name="movie" value="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0" type="application/x-shockwave-flash" width="416" height="234" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 			<h1 class="rotate">Chapter 3</h1>
 			<h2 class="rotate">Early 20th century at home</h2>
 			<p class="textblock rotate">Back home in Canada, the nation was expanding
@@ -74,10 +76,26 @@
 	
 		</div>
 		<div class="scrollblock" id="scroll4">
-
+			
 		</div>
 		<div class="scrollblock" id="scroll5">
-
+			<h1 class="rotate">Chapter 5</h1>
+			<h2 class="rotate">A defining moment in Canadian history</h2>
+			<p class="textblock1 rotate">With the news of Amundsen's Artic journey and those of others
+			at the time, the Canadian government was awakening to vital issues of Artic sovereignty. Part
+			of their <img src="images/chapter8/transparent.png" alt="transparent" style="float: right; height: 240px; width: 200px;" />response was to underline their claim on the region with Primie Minister Sir Robert
+			Borden's sponsorship of the Canadian Arctic Expedition in 1913. As a multidisciplinary study
+			of the Arctic and its people, the expedition was the first of its kind. Led by Vilhjalmur
+			Steffanson, the Canadian-born son of Icelandic immigrants, the five year mission was
+			not without its perils with 17 crew members lost. However, results of the CAE were enormously
+			significant, including the discovery of three new Canadian Islands,</p>
+			
+			<p class="textblock2 rotate">correction of centuries-old mapping errors, the uncovering
+			of mineral deposits and immense archeological, biological and geological surveys.
+			The CAE's observations were captured on sounds recordings, nearly 4,000 photographs and
+			9,000 feet of motion picture film.  Well documented in this collection are several
+			images of Woods canvas products, including tents, sleeping bags and the down-filled
+			Woods Artic Parka, which had been developed specially for the mission.</p>
 		</div>
 		<div class="scrollblock" id="scroll6">	
 			<img id="bg6" class="bg" src="images/chapter6/bg-six.png" alt="bg chapter six" />
@@ -189,6 +207,21 @@
 				the Canadian Team with tents, sleeping<br /> bags and parkas they would use at
 				the<br /> world's greatest heights.
 			</p>
+		</div>
+		<div class="scrollblock" id="scroll10">
+			<div class="frame-container rotate">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid"></span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			<h1 class="rotate">Chapter 10</h1>
+			<h2 class="rotate">1982 - Reaching new heights</h2>
 		</div>
 	</div>
 </div><!-- end body-wrapper -->
