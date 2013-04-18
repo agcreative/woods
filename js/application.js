@@ -274,7 +274,7 @@ $(document).ready(function() {
 	
 	gasmask.each(function(){
 		scrollorama
-			.animate($(this),{ duration: 600, property:'top', start: -1400 });
+			.animate($(this),{ duration: 600, property:'bottom', start: 1400 });
 	});
 	
 	c6frame2.each(function(){
