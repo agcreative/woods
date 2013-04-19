@@ -85,9 +85,9 @@ $(document).ready(function() {
 		
 
 		
-		//$('#console')
-			//.css('display','block')
-			//.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
+		$('#console')
+			.css('display','block')
+			.text('onBlockChange | blockIndex:'+i+' | current block: '+scrollorama.settings.blocks.eq(i).attr('id'));
 		
 		$('#nav span').removeClass('selected');
 		
@@ -102,12 +102,20 @@ $(document).ready(function() {
 		});
 		
 		
+		//jquery animation chapter 2
+		//globe		
+		if(k == 'scroll2'){	
+			globeIt()
+		}
+		
+		if(k == 'scroll2'){	
+			globeIt();			
+		}
+		
 		//jquery animation chapter 3
 		//glowing lamp
 		if(k == 'scroll3'){	
 			lampLits();			
-		}else{
-			//do nothing
 		}
 		
 		
@@ -137,14 +145,14 @@ $(document).ready(function() {
 					
 	});
 	
-			//lamp
-			function lampLits() {
-			var lampnotlit = $("#lampnotlit");
-				lampnotlit.animate({opacity: 0}, {duration: 1000})
-				.animate({opacity: 1.0}, {duration: 2000, complete: lampLits})
-				
-				return false;
-			}
+		//lamp
+		function lampLits() {
+		var lampnotlit = $("#lampnotlit");
+			lampnotlit.animate({opacity: 0}, {duration: 1000})
+			.animate({opacity: 1.0}, {duration: 2000, complete: lampLits})
+			
+			return false;
+		}
 
 
 		//wheel
@@ -157,6 +165,8 @@ $(document).ready(function() {
 			duration: 9000,
 			callback: function(){ wheelIt(); }
 		  });
+		  
+		  return false;
 		}
 		
 
@@ -184,6 +194,8 @@ $(document).ready(function() {
 				right: -10,
 				opacity: 0
 			}, { duration: 4000, complete: smokeIt })
+			
+			return false;
 	}
 	
 	function smokeIt2(){
@@ -196,6 +208,8 @@ $(document).ready(function() {
 				right: 10,
 				opacity: 0
 			}, { duration: 4000, complete: smokeIt2 })
+			
+			return false;
 	}
 	
 	function smokeIt3(){
@@ -209,9 +223,26 @@ $(document).ready(function() {
 				right: 10,
 				opacity: 0
 			}, { duration: 4000, complete: smokeIt2 })
+			
+			return false;
 	}
-	  
 	
+	function globeIt(){
+		var globe = $('#map');
+		globe.animate({
+			right: -14,
+			top: 421
+		}, {duration: 3000})
+		.animate({
+			right: -64,
+			top: 461
+		}, { duration: 3000, complete: globeIt })
+		
+		return false;
+		
+	}
+
+	  	
 	//chapter 1
 	var compass = $('#scroll1 .compass');	
 	var propeller = $('#scroll1 .propeller');
@@ -232,6 +263,8 @@ $(document).ready(function() {
 			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 });	
 	});
 	
+	
+	
 	//chapter 3
 	var lamplit = $('#scroll3 .lamplit');	
 	var lampnotlit = $('#scroll3 .lampnotlit');
@@ -250,17 +283,42 @@ $(document).ready(function() {
 	
 	c3frame1.each(function(){
 		scrollorama
-			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: -3 })
 			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
 	});
 	
 	video.each(function(){
 		scrollorama
-			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: 3 })
 			.animate($(this),{ delay: 400, duration: 200, property:'bottom', start:1400 })
 	});
 	
 	bg3.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+	//chapter 5
+	var gasmask = $('#scroll5 .gasmask');
+	var c5frame2 = $('#scroll5 .frame2');
+	var c5frame1 = $('#scroll5 .frame1');
+	var bg5 = $('#bg5');
+	
+	
+	c5frame2.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 });
+		
+	});
+	
+	c5frame1.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 });
+	});
+	
+	bg5.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
 	});
@@ -331,7 +389,7 @@ $(document).ready(function() {
 	
 	c8frame1.each(function(){
 		scrollorama
-			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: 3 })
 			.animate($(this),{ delay: 200, duration: 400, property:'left', start: -1400 })
 	});
 	
@@ -348,14 +406,14 @@ $(document).ready(function() {
 	
 	c9frame2.each(function(){
 		scrollorama
-			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: 3 })
 			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
 	});
 	
 	c9frame1.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
-			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: 3 })
 	});
 	
 	bg9.each(function(){

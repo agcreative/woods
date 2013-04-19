@@ -269,9 +269,8 @@ body {
 
 .frame-container  {
 	position: absolute;
-	top: 300px;
 	right: 0;
-	padding: 15px;
+	padding: 34px;
 }
 
 .frame-container .mid {
@@ -279,6 +278,7 @@ body {
 	width: 300px;
 	height: 100px;
 	display: block;
+	z-indxe: 99;
 }
 
 .frame-container .tl {
@@ -325,7 +325,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 10px;
-	height: 95px;
+	height: 35px;
 	width: 90%;
 	background: url(../images/frame-hr.png) 0 0 repeat-x ;
 }
@@ -334,7 +334,7 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 10px;
-	height: 95px;
+	height: 39px;
 	width: 90%;
 	background: url(../images/frame-hb.png) 0 bottom repeat-x ;
 }
@@ -344,7 +344,7 @@ body {
 	top: 10px;
 	right: 0;
 	height: 90%;
-	width: 95px;
+	width: 43px;
 	background: url(../images/frame-vr.png) right 0 repeat-y ;
 }
 
@@ -353,7 +353,7 @@ body {
 	top: 10px;
 	left: 0;
 	height: 90%;
-	width: 95px;
+	width: 43px;
 	background: url(../images/frame-vl.png) left 0 repeat-y ;
 }
 
@@ -451,6 +451,29 @@ body {
 }
 
 /* ######################################
+	chapter 2
+####################################### */
+
+#scroll2 .bg {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#scroll2 .map {
+    position: absolute;
+    right: -64px;
+    top: 461px;
+}
+
+#scroll2 .textblock {  
+    position: absolute;
+    right: 726px;
+    top: 261px;
+    width: 510px;
+}
+
+/* ######################################
 	chapter 3
 ####################################### */
 
@@ -461,9 +484,11 @@ body {
 }
 
 #scroll3 .frame1 {
+    height: 116px;
     left: 840px;
     position: absolute;
     top: 311px;
+    width: 357px;
 }
 
 #scroll3 .lamplit {
@@ -496,6 +521,8 @@ body {
     position: absolute;
     right: 736px;
     z-index: 10;
+    width: 420px;
+    height: 222px;
 }
 
 #scroll3 object {
@@ -516,10 +543,25 @@ body {
 }
 
 #scroll5 .frame1 {
+    left: 470px;
     position: absolute;
-    left: 580px;
-    top: 386px;
+    top: 396px;
+    width: 422px;
     z-index: 10;
+}
+
+#scroll5 .frame2 {
+    left: 850px;
+    position: absolute;
+    top: 636px;
+    width: 272px;
+    z-index: 10;
+	
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	/* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+	-ms-transform:rotate(-3deg);
 }
 
 #scroll5 .book {
@@ -704,6 +746,7 @@ body {
     left: 580px;
     top: 386px;
     z-index: 10;
+    width: 300px;
 }
 
 #scroll8 .book {
@@ -770,18 +813,24 @@ body {
 	right: 0;
 }
 
-#scroll9 .frame1 {
+#scroll9 .frame2 {
     position: absolute;
     right: 520px;
     top: 440px;
     z-index: 10;
+	width: 272px;
+	height: 178px;
+
 }
 
-#scroll9 .frame2 {
+#scroll9 .frame1 {
     position: absolute;
-    right: 808px;
+    right: 818px;
     top: 521px;
     z-index: 10;
+    height: 193px;
+    width: 354px;
+
 }
 
 #scroll9 .realguy {

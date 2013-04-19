@@ -16,8 +16,8 @@
 	<div id="nav">
 		<div id="woodslogo"><img src="images/woods-logo.png" alt="Woods" /></div>
 		<ul>
-			<li><span class="scroll1 selected">1 <em>1800-1900</em></span></li>
-			<li><span class="scroll2">2 <em>1800-1900</em></span></li>
+			<li><span class="scroll1 selected">1 <em>1867-1885</em></span></li>
+			<li><span class="scroll2">2 <em>1899-1902</em></span></li>
 			<li><span class="scroll3">3 <em>1800-1900</em></span></li>
 			<li><span class="scroll4">4 <em>1800-1900</em></span></li>
 			<li><span class="scroll5">5 <em>1800-1900</em></span></li>
@@ -50,16 +50,45 @@
 				</p>
 		</div>
 		<div class="scrollblock" id="scroll2">
-		
+				<img id="map" class="map" src="images/chapter2/map.png" alt="map" />
+				<img id="bg2" class="bg" src="images/chapter2/bg-two.png" alt="bg chapter one" />
+				<h1 class="rotate">Chapter 2</h1>
+				<h2 class="rotate">Early 20th century abroad (1899 - 1902)</h2>
 		</div>
 		<div class="scrollblock" id="scroll3">
 			<img id="bg3" class="bg" src="images/chapter3/bg-three.png" alt="bg chapter three" />
 			<img id="lamplit" class="lamplit" src="images/chapter3/lamp-lit.png" alt="lamp" />
 			<img id="lampnotlit" class="lampnotlit" src="images/chapter3/lamp-not-lit.png" alt="lamp 2" />
 			<img id="letter" class="letter" src="images/chapter3/letter.png" alt="letter" />
-			<img id="frame1" class="frame1" src="images/chapter3/frame1.png" alt="frame" />
-			<img id="video" class="video" src="images/chapter3/video.png" alt="video" />
-			<object width="416" height="234"><param name="movie" value="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0" type="application/x-shockwave-flash" width="416" height="234" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+			<div class="frame-container frame1">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 347px; height: 110px;">
+				</span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
+			
+			<div class="frame-container video">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 412px; height: 221px;">
+				</span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
+			
+			
 			<h1 class="rotate">Chapter 3</h1>
 			<h2 class="rotate">Early 20th century at home</h2>
 			<p class="textblock rotate">Back home in Canada, the nation was expanding
@@ -79,11 +108,39 @@
 			
 		</div>
 		<div class="scrollblock" id="scroll5">
+			<img id="bg5" class="bg" src="images/chapter5/bg-five.png" alt="bg chapter five" />
+			<div class="frame-container frame2">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 263px; height: 167px;"></span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
+			<div class="frame-container frame1">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 414px; height: 230px;">
+				<object width="414" height="230"><param name="movie" value="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/lUFlz70KuBI?version=3&amp;hl=en_GB&amp;rel=0" type="application/x-shockwave-flash" width="414" height="230" allowscriptaccess="always" allowfullscreen="true"></embed></object>			
+				</span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+
+		
 			<h1 class="rotate">Chapter 5</h1>
 			<h2 class="rotate">A defining moment in Canadian history</h2>
 			<p class="textblock1 rotate">With the news of Amundsen's Artic journey and those of others
 			at the time, the Canadian government was awakening to vital issues of Artic sovereignty. Part
-			of their <img src="images/chapter8/transparent.png" alt="transparent" style="float: right; height: 240px; width: 200px;" />response was to underline their claim on the region with Primie Minister Sir Robert
+			of their <img src="images/chapter8/transparent.png" alt="transparent" style="float: right; height: 340px; width: 300px;" />response was to underline their claim on the region with Primie Minister Sir Robert
 			Borden's sponsorship of the Canadian Arctic Expedition in 1913. As a multidisciplinary study
 			of the Arctic and its people, the expedition was the first of its kind. Led by Vilhjalmur
 			Steffanson, the Canadian-born son of Icelandic immigrants, the five year mission was
@@ -92,7 +149,7 @@
 			
 			<p class="textblock2 rotate">correction of centuries-old mapping errors, the uncovering
 			of mineral deposits and immense archeological, biological and geological surveys.
-			The CAE's observations were captured on sounds recordings, nearly 4,000 photographs and
+			The CAE's observations were captured on <img src="images/chapter8/transparent.png" alt="transparent" style="float: left; height: 280px; width: 186px;" />sounds recordings, nearly 4,000 photographs and
 			9,000 feet of motion picture film.  Well documented in this collection are several
 			images of Woods canvas products, including tents, sleeping bags and the down-filled
 			Woods Artic Parka, which had been developed specially for the mission.</p>
@@ -151,7 +208,19 @@
 		</div>
 		<div class="scrollblock" id="scroll8">
 			<img id="bg8" class="bg" src="images/chapter8/bg-eight.png" alt="bg chapter eight" />
-			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
+			
+			<div id="frame2" class="frame-container frame1">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 293px; height: 190px;"></span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
 			<h1 class="rotate">Chapter 8</h1>
 			<h2 class="rotate">Mid twentieth century - <br /> Woods and the Nation come of Age</h2>
 			<p class="textblock1 rotate">It wasn't just polar explores and the Allied forces who swore by the brand, but also
@@ -193,8 +262,32 @@
 		</div>
 		<div class="scrollblock" id="scroll9">
 			<img id="bg9" class="bg" src="images/chapter9/bg-nine.png" alt="bg chapter nine" />
-			<img id="frame2" class="frame1" src="images/chapter9/frame1.png" alt="frame 1" />
-			<img id="frame2" class="frame2" src="images/chapter9/frame2.png" alt="frame 2" />
+			
+			<div class="frame-container frame2">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 263px; height: 173px;"></span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
+			<div class="frame-container frame1">
+				<span class="tl"></span>
+				<span class="tr"></span>
+				<span class="mid" style="width: 344px; height: 188px;">
+				</span>
+				<span class="bl"></span>
+				<span class="br"></span>
+				<span class="tmid"></span>
+				<span class="bmid"></span>
+				<span class="rmid"></span>
+				<span class="lmid"></span>
+			</div>
+			
 			<img id="realguy" class="realguy" src="images/chapter9/real-guy.png" alt="real guy" />
 			<h1 class="rotate">Chapter 9</h1>
 			<h2 class="rotate">1982 - Reaching new heights</h2>
