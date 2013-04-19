@@ -92,15 +92,15 @@ input, select {
 /* ######################################
 	general
 ####################################### */
+
 body, html {
 	height: 100%;
 }
 
 body {
-	background: url(../images/bg-map.jpg) center 0 no-repeat fixed #000;
+	background: url(http://woodsarctic.ca/wp-content/themes/ormedia/images/bg.jpg) fixed;
 	color: #fff;
 	text-align: center;
-	padding-bottom: 10px;
 }
 #nav {
 	position: relative;
@@ -200,7 +200,8 @@ body {
 	z-index: 999;
 }
 
-.scrollblock {	
+.scrollblock {
+	background: url(../images/bg-map.jpg) center no-repeat fixed #000;
 	position: relative;
 	margin: 0;
 	width: 1500px;
@@ -212,8 +213,8 @@ body {
 #body-wrapper{
 	width: 1500px;
 	position: relative;
-	margin: 0 auto;
 	height: 100%;
+	margin: 0 auto;
 }
 
 #bookcover {
@@ -378,7 +379,7 @@ body {
 	background: url(../images/bg-nav.png) repeat-x;
     height: 136px;
     left: 330px;
-    padding: 0 0 0 100px;
+    padding: 0 0 0 0;
     position: absolute;
     top: 44px;
     width: 100% !important;
