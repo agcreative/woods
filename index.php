@@ -336,17 +336,6 @@
 			</p>
 		</div>
 		<div class="scrollblock" id="scroll10">
-			<div class="frame-container rotate">
-				<span class="tl"></span>
-				<span class="tr"></span>
-				<span class="mid"></span>
-				<span class="bl"></span>
-				<span class="br"></span>
-				<span class="tmid"></span>
-				<span class="bmid"></span>
-				<span class="rmid"></span>
-				<span class="lmid"></span>
-			</div>
 			<h1 class="rotate">Chapter 10</h1>
 			<h2 class="rotate">1982 - Reaching new heights</h2>
 		</div>

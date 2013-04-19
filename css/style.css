@@ -235,7 +235,7 @@ body {
     font-size: 19px;
     font-weight: normal;
     height: 58px;
-    left: 260px;
+    left: 310px;
     letter-spacing: 11px;
     line-height: 58px;
     position: absolute;
@@ -251,7 +251,7 @@ body {
     font-family: Georgia;
     font-size: 36px;
     font-weight: normal;
-    left: 260px;
+    left: 310px;
     position: absolute;
     text-align: center;
     top: 210px;
@@ -435,20 +435,20 @@ body {
 
 #scroll1 .compass {
     position: absolute;
-    right: 126px;
+    left: 1042px;
     top: 561px;
 }
 
-#scroll1 .textblock {  
+#scroll1 .textblock {
+    left: 306px;
     position: absolute;
-    right: 726px;
     top: 261px;
-    width: 510px;
+    width: 470px;
 }
 
 #scroll1 .propeller {
+    left: 1142px;
     position: absolute;
-    right: 219px;
     text-align: left;
     top: 639px;
 }
@@ -469,24 +469,24 @@ body {
     top: 461px;
 }
 
-#scroll2 .textblock {  
+#scroll2 .textblock {
+    left: 346px;
     position: absolute;
-    right: 726px;
-    top: 261px;
+    top: 271px;
     width: 410px;
 }
 
 #scroll2 .canatite {
+    left: 786px;
     position: absolute;
-    right: 436px;
-    top: 261px;
+    top: 281px;
     width: 272px;
     z-index: 10;
 }
 
 #scroll2 .flag {
+    left: 596px;
     position: absolute;
-    right: 626px;
     top: 471px;
     width: 272px;
     z-index: 10;
@@ -524,9 +524,9 @@ body {
     top: 460px;
 }
 
-#scroll3 .textblock {  
+#scroll3 .textblock {
+    left: 306px;
     position: absolute;
-    right: 726px;
     top: 261px;
     width: 510px;
 }
@@ -577,28 +577,29 @@ body {
     z-index: 10;
 }
 
-#scroll4 .textblock {  
+#scroll4 .textblock {
+    left: 296px;
     position: absolute;
-    right: 726px;
     top: 261px;
     width: 475px;
 }
 
 #scroll4 .textblock2 {
+    left: 820px;
     position: absolute;
-    right: 176px;
     top: 289px;
     width: 505px;
 }
 
 #scroll4 .telescope {
+    left: 896px;
     position: absolute;
-    right: 286px;
     top: 539px;
 }
+
 #scroll4 .sextant {
+    left: 1076px;
     position: absolute;
-    right: 166px;
     top: 589px;
 }
 
@@ -611,13 +612,13 @@ body {
 #scroll5 .bg {
 	position: absolute;
 	top: -300px;
-	right: 0;
+	left: 0;
 }
 
 #scroll5 .frame1 {
-    left: 470px;
+    left: 510px;
     position: absolute;
-    top: 396px;
+    top: 356px;
     width: 422px;
     z-index: 10;
 }
@@ -625,7 +626,7 @@ body {
 #scroll5 .frame2 {
     left: 850px;
     position: absolute;
-    top: 636px;
+    top: 606px;
     width: 272px;
     z-index: 10;
 	
@@ -665,18 +666,18 @@ body {
 }
 
 #scroll5 .textblock1 {
+    left: 296px;
     position: absolute;
-    right: 736px;
     text-align: left;
-    top: 303px;
+    top: 263px;
     width: 512px;
 }
 
 #scroll5 .textblock2 {
+    left: 830px;
     position: absolute;
-    right: 190px;
     text-align: left;
-    top: 330px;
+    top: 291px;
     width: 522px;
 }
 
@@ -697,27 +698,26 @@ body {
 #scroll6 .bg {
 	position: absolute;
 	top: -300px;
-	right: 0;
+	left: 0;
 }
 
 #scroll6 .frame1 {
+    left: 450px;
     position: absolute;
-    right: 760px;
     top: 451px;
     z-index: 10;
 }
 
 #scroll6 .frame2 {
+    left: 210px;
     position: absolute;
-    right: 970px;
     top: 291px;
     z-index: 10;
 }
-
 #scroll6 .gasmask {
-    position: absolute;
-    right: 126px;
     bottom: 0;
+    left: 1056px;
+    position: absolute;
     z-index: 10;
 }
 
@@ -761,38 +761,38 @@ body {
 }
 
 #scroll7 .frame1 {
+    left: 800px;
     position: absolute;
-    right: 350px;
-    top: 360px;
+    top: 370px;
     z-index: 10;
 }
 
 #scroll7 .frame2 {
+    left: 500px;
     position: absolute;
-    right: 630px;
     top: 550px;
     z-index: 10;
 }
 
 #scroll7 .textblock1 {
+    left: 298px;
     position: absolute;
-    right: 766px;
     text-align: left;
-    top: 250px;
+    top: 260px;
     width: 480px;
 }
 
 #scroll7 .textblock2 {
+    left: 290px;
     position: absolute;
-    right: 780px;
     top: 444px;
     width: 480px;
 }
 
 #scroll7 .textblock3 {
+    left: 846px;
     position: absolute;
-    right: 206px;
-    top: 281px;
+    top: 291px;
     width: 510px;
 }
 
@@ -815,15 +815,15 @@ body {
 
 #scroll8 .frame1 {
     position: absolute;
-    left: 580px;
+    left: 610px;
     top: 386px;
     z-index: 10;
     width: 300px;
 }
 
 #scroll8 .book {
+    left: 200px;
     position: absolute;
-    right: 1020px;
     top: 626px;
     z-index: 10;
 }
@@ -850,24 +850,24 @@ body {
 }
 
 #scroll8 .textblock1 {
+    left: 296px;
     position: absolute;
-    right: 736px;
     text-align: left;
     top: 303px;
     width: 512px;
 }
 
 #scroll8 .textblock2 {
+    left: 820px;
     position: absolute;
-    right: 190px;
     text-align: left;
     top: 330px;
     width: 522px;
 }
 
 #scroll8 .textblock3 {
+    left: 814px;
     position: absolute;
-    right: 198px;
     text-align: left;
     top: 500px;
     width: 522px;
@@ -886,36 +886,34 @@ body {
 }
 
 #scroll9 .frame2 {
+    height: 178px;
+    left: 660px;
     position: absolute;
-    right: 520px;
     top: 440px;
+    width: 272px;
     z-index: 10;
-	width: 272px;
-	height: 178px;
-
 }
 
 #scroll9 .frame1 {
-    position: absolute;
-    right: 818px;
-    top: 521px;
-    z-index: 10;
     height: 193px;
+    left: 278px;
+    position: absolute;
+    top: 521px;
     width: 354px;
-
+    z-index: 10;
 }
 
 #scroll9 .realguy {
+    display: none;
+    left: 978px;
     position: absolute;
-    right: 155px;
     top: 306px;
     z-index: 10;
-    display: none;
 }
 
 #scroll9 .textblock1 {
+    left: 306px;
     position: absolute;
-    right: 686px;
     text-align: left;
     top: 260px;
     width: 528px;

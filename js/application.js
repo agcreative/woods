@@ -251,7 +251,7 @@ $(document).ready(function() {
 	compass.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 200, duration: 400, property:'rotate', end: 360 })
-			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 });
+			.animate($(this),{ delay: 200, duration: 400, property:'left', end: 1800 });
 	});
 	c1frame1.each(function(){
 		scrollorama
@@ -260,7 +260,7 @@ $(document).ready(function() {
 	});
 	propeller.each(function(){
 		scrollorama
-			.animate($(this),{ delay: 200, duration: 400, property:'right', end: -1400 });	
+			.animate($(this),{ delay: 200, duration: 400, property:'left', end: 1800 });	
 	});
 	
 	
