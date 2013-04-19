@@ -7,7 +7,7 @@
 </head>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
+<script src="js/modernizr-1.6.js"></script>
 <body>
 
 <p id="console"></p>
@@ -320,7 +320,7 @@
 </div><!-- end body-wrapper -->
 </body>
 
-<script src="js/respond.js"></script>
+
 <script src="js/jquery.scrollorama.js"></script>
 <script src="js/jQueryRotate.2.2.js"></script>
 <script src="js/application.js"></script>
