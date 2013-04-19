@@ -264,6 +264,29 @@ $(document).ready(function() {
 	});
 	
 	
+	//chapter 2
+	var flag = $('#scroll2 .flag');
+	var canatite = $('#scroll2 .canatite');
+	var bg2 = $('#bg2');
+	
+	flag.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: -3 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
+	});
+	
+	canatite.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360, end: -3 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 })
+	});
+	
+	bg2.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+	
 	
 	//chapter 3
 	var lamplit = $('#scroll3 .lamplit');	
@@ -294,6 +317,30 @@ $(document).ready(function() {
 	});
 	
 	bg3.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
+	});
+	
+	//chapter 4
+	var c4frame2 = $('#scroll4 .frame2');
+	var c4frame1 = $('#scroll4 .frame1');
+	var bg4 = $('#bg4');
+	
+	
+	c4frame2.each(function(){
+		scrollorama
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 })
+			.animate($(this),{ delay: 200, duration: 400, property:'top', start:-400 });
+		
+	});
+	
+	c4frame1.each(function(){
+		scrollorama
+			.animate($(this),{ delay: 100, duration: 500, property:'top', start:-200 })
+			.animate($(this),{ duration: 600, property:'rotate', start: Math.random()*720-360 });
+	});
+	
+	bg4.each(function(){
 		scrollorama
 			.animate($(this),{ delay: 200, duration: 400, property:'top', end: 0 });
 	});

@@ -51,9 +51,21 @@
 		</div>
 		<div class="scrollblock" id="scroll2">
 				<img id="map" class="map" src="images/chapter2/map.png" alt="map" />
-				<img id="bg2" class="bg" src="images/chapter2/bg-two.png" alt="bg chapter one" />
+				<img id="bg2" class="bg" src="images/chapter2/bg-two.png" alt="bg chapter two" />
+				<img id="flag" class="flag" src="images/chapter2/flag.png" alt="flag" />
+				<img id="canatite" class="canatite" src="images/chapter2/canatite.png" alt="canatite" />			
 				<h1 class="rotate">Chapter 2</h1>
 				<h2 class="rotate">Early 20th century abroad (1899 - 1902)</h2>
+				<p class="textblock rotate">
+					By 1895, James W. had established his own manufacturing
+					facility and was producing tents, sleeping bags
+					and canvas bags of all kinds. He had invented a new light
+					canvas so effective in its waterproofing that it was not long
+					before his company's reputations was international. Woods
+					Canada was chief supplier of canvas to the British forces during
+					the Boer War (1899 - 1902), outfitting troops with everything from tents
+					and clothing to horse blankets.				
+				</p>
 		</div>
 		<div class="scrollblock" id="scroll3">
 			<img id="bg3" class="bg" src="images/chapter3/bg-three.png" alt="bg chapter three" />
@@ -105,7 +117,29 @@
 	
 		</div>
 		<div class="scrollblock" id="scroll4">
+			<img id="bg4" class="bg" src="images/chapter4/bg-four.png" alt="bg chapter four" />
+			<img id="frame2" class="frame2" src="images/chapter4/frame2.png" alt="frame 2" />
+			<img id="frame1" class="frame1" src="images/chapter4/frame1.png" alt="frame 1" />
+			<img id="telescope" class="telescope" src="images/chapter4/telescope.png" alt="telescope" />
+			<img id="sextant" class="sextant" src="images/chapter4/sextant.png" alt="sextant" />
+			<h1 class="rotate">Chapter 4</h1>
+			<h2 class="rotate">The Northwest breakthrough</h2>
+			<p class="textblock rotate">Woods parkas, tents, sleeping bags and other
+			equipment were on board the ship Gjoa when Roald Amundsen and his crew
+			successfully navigated the Northwest Passage in 1906, ending<img src="images/chapter8/transparent.png" alt="transparent" style="float: right; height: 340px; width: 169px;" />
+			more than 400 years of failed attempts by such legendary mariners as Sir John 
+			Franklin. "There are two times a man is happy when he's up here," Amundsen
+			would say of the North Pole. "When his belly is full of hot liquid and when he's
+			in his sleeping bag."
+			</p>
 			
+			<p class="textblock2 rotate">During his time in the Canadian Artic, Amundsen also
+			established the location of the North Magnetic Pole and lived for two winters among
+			the Inuit people in what is now Gjoa Haven, <img src="images/chapter8/transparent.png" alt="transparent" style="float: left; height: 340px; width: 237px;" />Nunavut, learning about polar survival.
+			The knowledge Amundsen acquired during his time in Canada would prove essential to his
+			success in 1911 leading the first team to reach the South Pole with Woods Equipment
+			in tow.
+			</p>
 		</div>
 		<div class="scrollblock" id="scroll5">
 			<img id="bg5" class="bg" src="images/chapter5/bg-five.png" alt="bg chapter five" />
@@ -157,7 +191,7 @@
 		<div class="scrollblock" id="scroll6">	
 			<img id="bg6" class="bg" src="images/chapter6/bg-six.png" alt="bg chapter six" />
 			<img id="frame2" class="frame2" src="images/chapter6/frame2.png" alt="frame 2" />
-			<img id="frame2" class="frame1" src="images/chapter6/frame1.png" alt="frame 1" />
+			<img id="frame1" class="frame1" src="images/chapter6/frame1.png" alt="frame 1" />
 			
 			<img id="gasmask" class="gasmask" src="images/chapter6/gas-mask.png" alt="gas mask" />
 			<img id="smoke2" class="smoke2" src="images/chapter6/smoke2.png" alt="smoke2" />

@@ -218,10 +218,13 @@ body {
 
 #bookcover {
     left: 50%;
-    margin-left: -819px;
+    margin-left: -749px;
+    overflow: hidden;
     position: fixed;
     top: 0;
+    width: 260px;
     z-index: 99;
+    display: none;
 }
 
 .scrollblock h1 {
@@ -456,7 +459,7 @@ body {
 
 #scroll2 .bg {
 	position: absolute;
-	top: 0;
+	top: -300px;
 	right: 0;
 }
 
@@ -470,8 +473,26 @@ body {
     position: absolute;
     right: 726px;
     top: 261px;
-    width: 510px;
+    width: 410px;
 }
+
+#scroll2 .canatite {
+    position: absolute;
+    right: 436px;
+    top: 261px;
+    width: 272px;
+    z-index: 10;
+}
+
+#scroll2 .flag {
+    position: absolute;
+    right: 626px;
+    top: 471px;
+    width: 272px;
+    z-index: 10;
+}
+
+
 
 /* ######################################
 	chapter 3
@@ -531,6 +552,57 @@ body {
     right: 783px;
     z-index: 10;
 }
+
+/* ######################################
+	chapter 4
+####################################### */
+
+#scroll4 .bg {
+	position: absolute;
+	top: -300px;
+	right: 0;
+}
+
+#scroll4 .frame1 {
+    left: 590px;
+    position: absolute;
+    top: 331px;
+    z-index: 10;
+}
+
+#scroll4 .frame2 {
+    left: 280px;
+    position: absolute;
+    top: 521px;
+    z-index: 10;
+}
+
+#scroll4 .textblock {  
+    position: absolute;
+    right: 726px;
+    top: 261px;
+    width: 475px;
+}
+
+#scroll4 .textblock2 {
+    position: absolute;
+    right: 176px;
+    top: 289px;
+    width: 505px;
+}
+
+#scroll4 .telescope {
+    position: absolute;
+    right: 286px;
+    top: 539px;
+}
+#scroll4 .sextant {
+    position: absolute;
+    right: 166px;
+    top: 589px;
+}
+
+
 
 /* ######################################
 	chapter 5
